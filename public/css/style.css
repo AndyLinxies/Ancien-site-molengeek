@@ -1,0 +1,121 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin: 0;
+}
+#newsletter{
+  background-color: purple;
+  color: antiquewhite;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+#newsletter img{
+  width: 50px;
+  height: 20px;
+}
+.haut{
+  display: flex;
+ border: rgb(190, 190, 190) solid 1px;
+}
+.menu{
+ 
+}
+.logo{
+  
+}
+
+.lien{
+margin: 50px;
+}
+.lien:hover::after{
+width: 40px;
+height: 2px;
+background-color: solid;
+z-index: 1;
+}
+
+#champs_newsletter{
+  color: white;
+  display: flex;
+}
+input{
+  border-radius: 5px;
+  height: 27px;
+}
+.btnHaut{
+  border-radius: 5px;
+  background-color: rgba(21, 204, 36, 0.774);
+  margin: 5px;
+  height: 30px;
+  width: 20%;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+hr{
+  margin-left: 85vh;
+  margin-right: 85vh;
+  background-color: purple;
+  height: 2px;
+}
+#list2{
+  color: purple;
+}
+span{
+  color: black;
+}/*Ne concerne que le texte*/
+.section{
+  background-color: gray;
+  height: 15vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.logo1{
+  height: 60px;
+  width: 110px;
+  border-right: rgb(190, 190, 190) solid 1px;
+  margin: 0;
+}
+.reso{
+  text-decoration: none;
+}
+.bas2{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+#saisie{
+  margin: 5px;
+}
+.lHaut{
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+.fa-2x{
+  margin: 20px;
+  color: white;
+}
+#sectionlast{
+  border: rgba(251, 248, 248, 0.602) solid 1px;
+}
+#contenu{
+  margin-left: 80px;
+  margin-right: 70px;
+}
+.lien8{
+  margin-left: 180px;
+  border-left: rgba(251, 248, 248, 0.602) solid 1px;
+}
+#span1{
+  color: white;
+}
+
